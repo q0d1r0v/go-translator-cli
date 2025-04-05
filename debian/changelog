@@ -1,0 +1,5 @@
+go-translator-cli (1.0.0-1) unstable; urgency=medium
+
+  * Initial release of go-translator-cli tool.
+
+ -- beko <qodirovoybekjon08@gmail.com>  Fri, 06 Apr 2025 12:00:00 +0000

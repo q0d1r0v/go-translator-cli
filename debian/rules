@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/q0d1r0v/go-translator-cli
+export DH_GOLANG_INSTALL_ALL := 1
+export GOCACHE := $(CURDIR)/debian/gocache
+export GOPATH := $(CURDIR)/debian/go-path
+
+%:
+	dh $@ --with=golang

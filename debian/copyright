@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: go-translator-cli
+Upstream-Contact: beko
+Source: https://github.com/q0d1r0v/go-translator-cli
+
+Files: \*
+Copyright: 2025 beko
+License: MIT

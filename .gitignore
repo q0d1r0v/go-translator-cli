@@ -1,0 +1,43 @@
+# Go binary files
+/bin/
+/build/
+/dist/
+
+# Go workspace
+*.swp
+*.swo
+*.log
+
+# Go modules
+/vendor/
+
+# Go test files
+*.test
+*.out
+*.prof
+*.cover
+
+# Go IDEs
+.idea/
+.vscode/
+*.iml
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*~
+
+# IDE configuration files
+/.vscode/
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# Coverage output
+*.cov
+*.coverprofile
+
+# Dependency directories
+go.sum
+go.mod

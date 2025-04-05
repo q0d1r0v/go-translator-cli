@@ -1,0 +1,19 @@
+Source: go-translator-cli
+Section: utils
+Priority: optional
+Maintainer: beko <qodirovoybekjon08@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+  dh-golang,
+  golang-any
+Standards-Version: 4.5.1
+Homepage: https://github.com/yourusername/go-translator-cli
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/yourusername/go-translator-cli
+
+Package: go-translator-cli
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Command-line interface for translating text
+  A command-line tool that provides text translation services
+  using various free translation APIs. It supports multiple
+  languages and doesn't require API keys.
